@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap');
+body{
+font-family: 'Lato', sans-serif;
+margin: 0;
+}
+h1{
+	text-align: center;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	background-color: #138ada;
+	border-bottom: 2px solid blue;
+	border-top: 2px solid blue;
+
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+nav li{
+	display: inline;
+
+
+}
+
+nav a{
+
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: floralwhite;
+}
+nav a:visited{
+	color: floralwhite;
+}
+nav a:hover {
+	color: lightgray;
+}
+nav a: active{
+	color: white;
+}
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+footer{
+	text-align: center;
+	border-top: 1px soild black;
+	padding: 10px;
+
+
+}
+table{
+
+	border-collapse: collapse;
+
+}
+
+td,th{
+	border: 1px solid darkblue;
+	padding: 3px;
+
+}
+th{
+background-color: black;
+color: white;
+}
+.home-img{
+	max-width: 40%;
+	height: auto;
+	float: left;
+
+	margin-right:40px
+}
+.home-hero{
+
+	background-image: url(images/greece.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 10px 10px 10px 30px;
+	text-shadow: 4px 3px 0 #7a7a7a;
+}
+p{
+font-size: 18px;
+}
+button{background-color: purple;
+	color: white;
+	padding: 10px;
+
+}
+.logo{
+margin: 0 auto;
+display:block
+}
+.resume{
+background-color: #efefef;
+box-shadow: 2px 2px 2px cornflowerblue;
+padding: 40px 5%;
+max-width: 800px;
+
+
+}
+
+@media only screen and (max-width: 1024px){
+    h1{
+    	font-size: 2em;
+ 
+
+	}
+
+
+}
+@media only screen and (max-width: 768px){
+
+	h1{
+	font-size: 1.5em;
+	}
+
+
+}
